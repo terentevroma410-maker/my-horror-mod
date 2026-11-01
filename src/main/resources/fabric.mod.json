@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "from_body_horror",
+  "version": "${version}",
+  "name": "From: Body Horror",
+  "description": "A survival horror mod inspired by the atmosphere and mysteries of From.",
+  "authors": ["Roma_TV"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.romatv.frombodyhorror.FromBodyHorror"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
